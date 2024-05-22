@@ -1,0 +1,54 @@
+.bubblespace {
+  width: 100vw;
+  height: 95vh;
+  display:flex;
+  justify-content: center;
+  position: absolute;
+  /* background-color: aqua; */
+}
+
+.words {
+  position: relative;
+  text-align: center;
+  /* background-color: red; */
+  margin:50px
+}
+
+body {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bubble {
+  max-width: 300px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+
+button {
+  margin: 5px;
+}
+
+.header {
+  position: relative;
+  /* background-color: bisque; */
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .comical-generated {
+  margin-top: 10vh;
+  max-height: 500px;
+  max-width: 500px;
+  position: absolute;
+} */

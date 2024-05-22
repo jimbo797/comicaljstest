@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/anime-ace");
+
+body {
+  font-family: "Anime Ace", sans-serif;
+}
+
+.comic-panel {
+  width: 100%;
+}
+
+#panel {
+  position: relative;
+}
+
+.dialogue {
+  font-size: 1.5vw;
+  position: absolute;
+  text-align: center;
+  padding: 1%;
+  cursor: move;
+}
+
+.Typewriter__cursor {
+  display: none;
+}
+
+.dialogue .dialogue-content {
+  position: relative;
+}
+
+.dialogue .scaffold {
+  opacity: 0;
+}
+
+.dialogue .typewriter {
+  position: absolute;
+  top: 0px;
+  left: -0.5px;
+}
+
+svg.comical-generated {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
